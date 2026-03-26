@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.tar.gz
+projects/
+sessions/
+log/

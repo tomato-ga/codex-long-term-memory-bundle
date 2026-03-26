@@ -1,0 +1,13 @@
+project_root_markers = [".git"]
+project_doc_fallback_filenames = ["MEMORY.md"]
+project_doc_max_bytes = 65536
+
+notify = [
+  "sh",
+  "-lc",
+  "if [ -x \"$HOME/.codex/memory-runtime/.venv/bin/python\" ]; then exec \"$HOME/.codex/memory-runtime/.venv/bin/python\" \"$HOME/.codex/bin/codex_memory.py\" notify \"$1\"; fi",
+  "codex-memory-notify"
+]
+
+[history]
+persistence = "save-all"
