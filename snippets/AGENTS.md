@@ -22,3 +22,4 @@
 
 ```bash
 "$HOME/.codex/memory-runtime/.venv/bin/python" "$HOME/.codex/bin/codex_memory.py" search --cwd "$PWD" --query "<自然言語クエリ>"
+```

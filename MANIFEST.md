@@ -1,6 +1,6 @@
 # Bundle Manifest
 
-This repository contains only the files needed to transplant the Codex long-term-memory setup into another `~/.codex` installation.
+This repository contains only the files needed to transplant the global Codex long-term-memory setup into another `~/.codex` installation.
 
 Included:
 
@@ -16,12 +16,14 @@ Excluded on purpose:
 - live `memory.db` files
 - saved session logs
 - generated `MEMORY.md` files
+- Claude Code project hook settings
 - unrelated Codex settings
 - host-specific secrets
 
 Repository-only helper files:
 
 - `README.md`
+- `README-JA.md`
 - `MANIFEST.md`
 - `PUBLISHING.md`
 - `.gitignore`

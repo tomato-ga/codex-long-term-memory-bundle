@@ -5,9 +5,11 @@ This repository is prepared for public GitHub publication.
 ## Before you publish
 
 1. Review `README.md` for wording and repository name.
-2. Decide whether to add a `LICENSE` file.
-3. Confirm `snippets/config.toml.long-term-memory.toml` matches the target Codex version you want to support.
-4. Confirm `bin/codex_memory.py` contains no organization-specific behavior.
+2. Review `README-JA.md` if you want to keep the Japanese documentation in sync.
+3. Decide whether to add a `LICENSE` file.
+4. Confirm `snippets/config.toml.long-term-memory.toml` matches the target Codex version you want to support.
+5. Confirm `bin/codex_memory.py` contains no organization-specific behavior.
+6. Confirm the README does not claim Claude Code automatic hooks are included unless the project-local hook runtime is also published.
 
 ## Suggested repository name
 
@@ -29,6 +31,8 @@ git push -u origin main
 - current host memory databases
 - current host logs
 - generated `MEMORY.md`
+- Claude Code `.claude/settings.json` files with absolute local paths
+- project-local runtime state such as `runtime/` and `spool/`
 
 ## Validation
 
